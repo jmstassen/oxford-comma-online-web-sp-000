@@ -1,3 +1,12 @@
 def oxford_comma(array)
-  array.join(", ")
+count = array.count
+case count
+when 1
+  return array.join
+when 2
+  return array.join(" and ")
+else
+
+
+
 end
